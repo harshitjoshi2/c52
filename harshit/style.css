@@ -1,0 +1,60 @@
+h1{
+    color: blueviolet;
+    padding: 50px;
+}
+h2{
+    color: aquamarine;
+}
+.header{
+    background-color:#808080;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu{
+   
+    margin-right: 30px;
+    padding: 50px;
+}
+.menu a{
+  
+  margin-bottom: 50px;
+    margin-left: 20px;
+}
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.me{
+    background-color: darkcyan;
+    border:aqua;
+}
+.my{
+    background-color: chartreuse;
+    border: green;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0.5;
+}
+.item:hover p{
+    opacity: 1;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: wheat;
+}
